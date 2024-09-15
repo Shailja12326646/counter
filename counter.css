@@ -1,0 +1,32 @@
+body{
+    background-color:deepskyblue;
+    align-items: center;
+    align-content:center;
+}
+.container{
+    background-color: hotpink;
+    height:600px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:6px solid blueviolet;
+    border-radius: 20px;
+    box-shadow:lemonchiffon;
+    margin: 100px 400px;
+
+}
+#text{
+    height:400px;
+    width:400px;
+    border: 3px solid black;
+}
+.smallcontainer{
+    display:flex;
+    flex-direction: column;
+}
+.sc1{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
